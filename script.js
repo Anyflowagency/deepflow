@@ -2,6 +2,7 @@ function initTextAnim() {
   gsap.registerPlugin(ScrollTrigger, SplitText);
   // gsap code here!
 
+  console.log("hello");
   let headings = document.querySelectorAll(".textanim");
 
   headings.forEach((heading) => {
