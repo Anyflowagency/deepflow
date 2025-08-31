@@ -1,8 +1,3 @@
-<script data-barba-script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script data-barba-script src="https://cdn.jsdelivr.net/npm/split-type@0.3.4/umd/index.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@barba/core@2.9.0/dist/barba.umd.min.js"></script>
-<script>
-
 function initTextAnim() {
   gsap.registerPlugin(ScrollTrigger, SplitText);
   // gsap code here!
@@ -780,6 +775,3 @@ barba.init({
     },
   ],
 });
-
-
-</script>
